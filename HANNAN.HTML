@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST CAR,S SERES IN PAKISTAN</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        /* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css variables */
+    :root{
+--navbar-height: 59px;
+}
+/* navigation bar */
+
+#navbar{
+display: flex;
+align-items: center;
+position: relative;
+top: 0px;
+}
+#logo{
+margin: -18px 18px;
+}
+#logo img{
+    height: 56px;
+margin: 43px 8px;
+}
+#navbar ul{
+    font-family: "Sofia", sans-serif;
+    display: flex;
+}#navbar::before{
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+} 
+#navbar ul li a{
+color: white;    
+display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 364px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(HANNAN3.jpg)no-repeat center center/cover;
+    height: 74%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.h-primiry{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+#home h1{
+    font-family: "Sofia", sans-serif;
+    color: white;
+    text-align: center;
+}
+#home p{
+    font-family: "Sofia", sans-serif;
+    color: white;
+    text-align: center;
+    font-size:1.5 ;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 36px;
+    background-color: #d3f3c1;
+
+}#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+
+}
+#services{}
+.h-primary {
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="SERVIEC.COME">
+        </div>
+        <ul>
+            <li class="aitem"><a href="#">HOME</a></li>
+            <li class="aitem"><a href="#">SERVIESE</a></li>
+            <li class="aitem"><a href="#">ABOUT US</a></li>
+            <li class="aitem"><a href="#">CONTACT US</a></li>
+            <!-- <li class="aitem"><a href="#"></a></li> -->
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primiry">
+            WELCOME TO MY SERVIEC
+        </h1>
+        <P class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, eligendi, veniam voluptas sed tempore nemo esse nostrum ratione, aperiam facilis voluptates incidunt doloribus sequi?</P> 
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, eligendi, veniam voluptas sed tempore nemo </P>
+        <button class="btn">click now</button>
+    </section>
+    <section class="services-container">
+    <h1 class="h-primary canter">Our Servies</h1>
+    <div id="services">
+        <div class="box">
+            <img src="HANNAN4.jpg" alt="">
+            <h2 class="h-secondary center">Cars booking</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis ea? Laborum pariatur minus placeat quaerat labore eligendi modi voluptates, ea rem tempore, fugit accusamus quibusdam ipsum explicabo tenetur repellat, corporis atque accusantium temporibus.</p>
+        </div> <div class="box">
+            <img src="HANNAN4.jpg" alt="">
+            <h2 class="h-secondary center">Cars booking</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis ea? Laborum pariatur minus placeat quaerat labore eligendi modi voluptates, ea rem tempore, fugit accusamus quibusdam ipsum explicabo tenetur repellat, corporis atque accusantium temporibus.</p>
+        </div> <div class="box">
+            <img src="HANNAN4.jpg" alt="">
+            <h2 class="h-secondary center">Cars booking</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis ea? Laborum pariatur minus placeat quaerat labore eligendi modi voluptates, ea rem tempore, fugit accusamus quibusdam ipsum explicabo tenetur repellat, corporis atque accusantium temporibus.</p>
+        </div>
+        
+    </div>
+    </section>
+    
+</body>
+</html>
